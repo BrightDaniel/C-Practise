@@ -1,0 +1,78 @@
+Task 1:
+1) Write a program that prints the alphabet in lowercase, followed by a new line.
+
+You can only use the putchar function (every other function (printf, puts, etc…) is forbidden)
+All your code should be in the main function
+You can only use putchar twice in your code
+
+filename: if-else-switch_a.c
+
+
+2) Complete this code to print the output below 
+
+#include <stdlib.h>
+#include <time.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
+int main(void)
+{
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	return (0);
+}
+
+The output of the program should be:
+The string Last digit of, followed by
+n, followed by
+the string is, followed by
+if the last digit of n is greater than 5: the string and is greater than 5
+if the last digit of n is 0: the string and is 0
+if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
+followed by a new line
+
+filename: if-else-switch_b.c
+
+
+
+
+
+
+3) Write a program to get the user First and last name, score. If the result of the score divided by 2 is not up to 50%, the output should be: 
+"Sorry you're out".
+If the result divided by half is greater than 50%, but not up to 80, the output should be:
+"You did well, Unfortunately you'll have to apply for the next cohort"
+If the result divided by half is greater than 80%  and lesser than 179%, the output should be:
+"Congratulations, You're through to the next phase".
+
+filename: if-else-switch_c.c
+
+
+
+
+4) Write a program to assign classes to different student based on their age.
+If age is 6:
+"Class 1"
+If age is 8:
+"Class 2"
+If age is 10:
+"Class 3"
+If age is 12:
+"Class 4"
+If age is 14:
+"Class 5" 
+If age is 16:
+"Class 6"
+If age is 18:
+"Class 8"
+else
+"Sorry, you do not belong to any class"
+
+filename: if-else-switch_d.c
+
+
+
+NB: Create a branch with your name and push to this same repo as a collaborator
