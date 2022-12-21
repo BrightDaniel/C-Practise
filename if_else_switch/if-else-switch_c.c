@@ -5,7 +5,6 @@ int main()
 {
     char name[50];
     int score;
-    int total = 179;
 
     printf("what is your name? : ");
     fgets(name, 50, stdin);
