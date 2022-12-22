@@ -1,0 +1,3 @@
+Write a program that allows the user print out a string a specific number of  times.
+
+Write your answer in a file called task2.c in the answer folder
