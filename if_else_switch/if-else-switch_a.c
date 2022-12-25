@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - print lowercase character with putchar
  *
@@ -13,4 +14,5 @@ int main()
 		putchar(x);
 	}
 	putchar('\n');
+
 }
