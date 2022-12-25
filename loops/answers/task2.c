@@ -10,7 +10,7 @@ int main()
 	char string[150];
 
 	printf("What string do you want to print out : ");
-	scanf("%s", string);
+	fgets(string, 150, stdin);
 
 	printf("How many times do you want it to be printed :");
 	scanf("%d", &numOfTimes);
