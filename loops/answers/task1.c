@@ -1,8 +1,14 @@
 #include <stdio.h>
-
+/**
+ * main - Print alphabet in lowercase using Printf
+ */
 
 int main()
 {
-	        //TODO
-		
+	char udo;
+
+	for (udo = 'a'; udo <= 'z'; udo++)
+	{
+		printf("%c \n", udo);
+	}	
 }
