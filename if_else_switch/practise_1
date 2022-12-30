@@ -1,0 +1,13 @@
+include <stdio.h>
+
+int main()
+{
+
+	char y;
+	if (x => 'a' && <= 'z') 
+	{
+		_putchar("x");
+	}
+	_putchar("\n");
+	return 0;
+}
