@@ -1,37 +1,47 @@
 
 #include <stdio.h>
 
-int main()
+/**
+ * main - printing conditional statements
+ * @r: represents result from score
+ * Return: 0
+ */
+
+int main(void)
 {
-	    char name[50];
-	        int score;
+	    char fullname[30];
+	    int score;
+	    int r;
 
-		    printf("what is your name? : ");
-		        fgets(name, 50, stdin);
-			    /**scanf("%s", name);
-			     *      * I dicovered that scanf will not allow space to input the second name so i used fgets*/
-			    printf("Welcome %sWhat is your score : ", name);
-			        scanf("%d", &score);
-				    int totalScore = score / 2;
-				        printf("Your score is : %d\n", totalScore);
+	printf(" Enter Your Name: \n");//prompts user to enter full name
+	fgets(fullname, 30,stdin); // scanf can't accommodate full names bcos of existence of space
 
-					    if (totalScore < 50)
-						        {
-								        printf("Sorry you are out\n");
-									    }
-					        else if (totalScore >= 50 && totalScore <= 80)
-							    {
-								            printf("You did well, Unfortunately you'll have to apply for the next cohort\n");
-									        }
-						    else if (totalScore >= 80 && totalScore <= 179)
-							        {
-									        printf("Congratulations, You're through to the next phase\n");
-										    }
-						        else
-								    {
-									            printf("invalid score");
-										        }
+	printf(" Enter Your Score: \n");
+	scanf(%d, &score);
 
-							        return (0);
+	for ( r = score / 2)
+	{
+		if (r < 50)
+		{
+			printf(" \" Sorry you're out \" \n");
+		}
 
+		else if (r > 50 && r < 80)
+		{
+			printf(" \" You did well, unfortunately, you'll have 
+			to apply for the next cohort \" \n");
+		}
+
+		else if (r > 80 && r < 179)
+		{
+			printf(" \" Congratulations, You're through to the next phase \" \n");
+		}
+		else
+			printf("invalid score"\n);
+	}
+	return (0);
 }
+
+		
+	
+	
