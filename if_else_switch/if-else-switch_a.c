@@ -1,16 +1,24 @@
 #include <stdio.h>
 
+/**
+ * main- prints alphabelts in lower case 
+ * followed by a new line.
+ *
+ * Return: 0
+ */
 
-int main()
+
+int main(void)
 
 {
 	
-	char x;
-
-	if (x => 'a' && x <= 'z')
+	char lowc;
+	 
+	for (lowc = 'a'; lowc <= 'z'; lowc++);
 	{
-		_putchar("x");
-	}	
-	_putchar("\n");
-	return 0;
+		putchar(lowc);
+	}
+	putchar('\n');
+	return (0);
+
 }
