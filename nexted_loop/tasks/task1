@@ -1,0 +1,11 @@
+Write a program to print out the numbers a user inputs.
+
+Your result should be a similar 1.
+
+user input: 3
+
+1
+12
+123
+
+WRITE YOUR ANSWER IN A FILE CALLED "task1.c" in the answer folder

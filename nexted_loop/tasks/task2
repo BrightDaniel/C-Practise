@@ -1,0 +1,10 @@
+Write a program that accepts input from users to print multiplication table up to the 12th value.
+
+Your program should look exactly like this:
+
+2 X 1 = 2
+2 X 2 = 4
+2 X 3 = 6...
+
+
+WRITE YOUR ANSWER IN A FILE CALLED "task2.c" in the answer folder
