@@ -1,0 +1,4 @@
+Print all the alphabet in lowercase, followed by a new line.
+
+
+Write your answer in a file called task1.c in the answer folder

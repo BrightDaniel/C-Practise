@@ -1,0 +1,15 @@
+#!\bin\bash 
+# If you are using ubuntu, to push your work to github in one command, simply type:
+ make git m="commit message"
+#
+#
+#
+#
+#
+#
+#  If you are using Gitbash, to push our work to github, simply type:
+  git bwave "commit message"
+#
+#
+#  Happy learning.
+#  BwaveICT
